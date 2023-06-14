@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS ComputadorasComponentes;
+
 CREATE TABLE ComputadorasComponentes (
   ID_Computadora SERIAL PRIMARY KEY,
   Nombre_Computadora VARCHAR(255),
